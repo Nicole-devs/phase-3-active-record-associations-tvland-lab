@@ -1,4 +1,5 @@
 class CreateCharacters < ActiveRecord::Migration[6.1]
+  
   def change
     create_table :characters do |t|
       t.string :name
@@ -6,4 +7,5 @@ class CreateCharacters < ActiveRecord::Migration[6.1]
       t.integer :show_id
     end
   end
+
 end
